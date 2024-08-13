@@ -12,3 +12,11 @@ export interface TeamChampion {
   team: string;
   wikipedia: string;
 }
+
+export interface Driver {
+  driver: string;
+  team: string;
+  country: string;
+  carNumber: number;
+  debutSeason: number;
+}
