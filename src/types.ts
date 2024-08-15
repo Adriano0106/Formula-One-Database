@@ -4,13 +4,13 @@ export interface DriverChampion {
   team: string;
   carNumber: number;
   nationality: string;
-  wikipedia: string;
+  wikipediaPage: string;
 }
 
 export interface TeamChampion {
   year: number;
   team: string;
-  wikipedia: string;
+  wikipediaPage: string;
 }
 
 export interface Driver {
@@ -19,4 +19,5 @@ export interface Driver {
   country: string;
   carNumber: number;
   debutSeason: number;
+  wikipediaPage: string;
 }

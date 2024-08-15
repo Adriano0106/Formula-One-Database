@@ -7,7 +7,7 @@ export const champions: DriverChampion[] = [
     team: 'Red Bull Racing',
     carNumber: 1,
     nationality: 'Dutch',
-    wikipedia: 'https://en.wikipedia.org/wiki/Max_Verstappen'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Max_Verstappen'
   },
   {
     year: 2022,
@@ -15,7 +15,7 @@ export const champions: DriverChampion[] = [
     team: 'Red Bull Racing',
     carNumber: 1,
     nationality: 'Dutch',
-    wikipedia: 'https://en.wikipedia.org/wiki/Max_Verstappen'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Max_Verstappen'
   },
   {
     year: 2021,
@@ -23,7 +23,7 @@ export const champions: DriverChampion[] = [
     team: 'Red Bull Racing',
     carNumber: 33,
     nationality: 'Dutch',
-    wikipedia: 'https://en.wikipedia.org/wiki/Max_Verstappen'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Max_Verstappen'
   },
   {
     year: 2020,
@@ -31,7 +31,7 @@ export const champions: DriverChampion[] = [
     team: 'Mercedes',
     carNumber: 44,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
   },
   {
     year: 2019,
@@ -39,7 +39,7 @@ export const champions: DriverChampion[] = [
     team: 'Mercedes',
     carNumber: 44,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
   },
   {
     year: 2018,
@@ -47,7 +47,7 @@ export const champions: DriverChampion[] = [
     team: 'Mercedes',
     carNumber: 44,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
   },
   {
     year: 2017,
@@ -55,7 +55,7 @@ export const champions: DriverChampion[] = [
     team: 'Mercedes',
     carNumber: 44,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
   },
   {
     year: 2016,
@@ -63,7 +63,7 @@ export const champions: DriverChampion[] = [
     team: 'Mercedes',
     carNumber: 6,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Nico_Rosberg'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Nico_Rosberg'
   },
   {
     year: 2015,
@@ -71,7 +71,7 @@ export const champions: DriverChampion[] = [
     team: 'Mercedes',
     carNumber: 44,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
   },
   {
     year: 2014,
@@ -79,7 +79,7 @@ export const champions: DriverChampion[] = [
     team: 'Mercedes',
     carNumber: 44,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
   },
   {
     year: 2013,
@@ -87,7 +87,7 @@ export const champions: DriverChampion[] = [
     team: 'Red Bull Racing',
     carNumber: 1,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Sebastian_Vettel'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Sebastian_Vettel'
   },
   {
     year: 2012,
@@ -95,7 +95,7 @@ export const champions: DriverChampion[] = [
     team: 'Red Bull Racing',
     carNumber: 1,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Sebastian_Vettel'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Sebastian_Vettel'
   },
   {
     year: 2011,
@@ -103,7 +103,7 @@ export const champions: DriverChampion[] = [
     team: 'Red Bull Racing',
     carNumber: 1,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Sebastian_Vettel'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Sebastian_Vettel'
   },
   {
     year: 2010,
@@ -111,7 +111,7 @@ export const champions: DriverChampion[] = [
     team: 'Red Bull Racing',
     carNumber: 5,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Sebastian_Vettel'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Sebastian_Vettel'
   },
   {
     year: 2009,
@@ -119,7 +119,7 @@ export const champions: DriverChampion[] = [
     team: 'Brawn GP',
     carNumber: 22,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jenson_Button'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jenson_Button'
   },
   {
     year: 2008,
@@ -127,7 +127,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 22,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
   },
   {
     year: 2007,
@@ -135,7 +135,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 6,
     nationality: 'Finnish',
-    wikipedia: 'https://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Kimi_R%C3%A4ikk%C3%B6nen'
   },
   {
     year: 2006,
@@ -143,7 +143,7 @@ export const champions: DriverChampion[] = [
     team: 'Renault',
     carNumber: 1,
     nationality: 'Spanish',
-    wikipedia: 'https://en.wikipedia.org/wiki/Fernando_Alonso'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Fernando_Alonso'
   },
   {
     year: 2005,
@@ -151,7 +151,7 @@ export const champions: DriverChampion[] = [
     team: 'Renault',
     carNumber: 5,
     nationality: 'Spanish',
-    wikipedia: 'https://en.wikipedia.org/wiki/Fernando_Alonso'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Fernando_Alonso'
   },
   {
     year: 2004,
@@ -159,7 +159,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 1,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
   },
   {
     year: 2003,
@@ -167,7 +167,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 1,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
   },
   {
     year: 2002,
@@ -175,7 +175,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 1,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
   },
   {
     year: 2001,
@@ -183,7 +183,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 1,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
   },
   {
     year: 2000,
@@ -191,7 +191,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 3,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
   },
   {
     year: 1999,
@@ -199,7 +199,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 1,
     nationality: 'Finnish',
-    wikipedia: 'https://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen'
   },
   {
     year: 1998,
@@ -207,7 +207,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 8,
     nationality: 'Finnish',
-    wikipedia: 'https://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Mika_H%C3%A4kkinen'
   },
   {
     year: 1997,
@@ -215,7 +215,7 @@ export const champions: DriverChampion[] = [
     team: 'Williams',
     carNumber: 3,
     nationality: 'Canadian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jacques_Villeneuve'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jacques_Villeneuve'
   },
   {
     year: 1996,
@@ -223,7 +223,7 @@ export const champions: DriverChampion[] = [
     team: 'Williams',
     carNumber: 5,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Damon_Hill'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Damon_Hill'
   },
   {
     year: 1995,
@@ -231,7 +231,7 @@ export const champions: DriverChampion[] = [
     team: 'Benetton',
     carNumber: 1,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
   },
   {
     year: 1994,
@@ -239,7 +239,7 @@ export const champions: DriverChampion[] = [
     team: 'Benetton',
     carNumber: 5,
     nationality: 'German',
-    wikipedia: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Michael_Schumacher'
   },
   {
     year: 1993,
@@ -247,7 +247,7 @@ export const champions: DriverChampion[] = [
     team: 'Williams',
     carNumber: 2,
     nationality: 'French',
-    wikipedia: 'https://en.wikipedia.org/wiki/Alain_Prost'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Alain_Prost'
   },
   {
     year: 1992,
@@ -255,7 +255,7 @@ export const champions: DriverChampion[] = [
     team: 'Williams',
     carNumber: 5,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Nigel_Mansell'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Nigel_Mansell'
   },
   {
     year: 1991,
@@ -263,7 +263,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 1,
     nationality: 'Brazilian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Ayrton_Senna'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Ayrton_Senna'
   },
   {
     year: 1990,
@@ -271,7 +271,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 27,
     nationality: 'Brazilian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Ayrton_Senna'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Ayrton_Senna'
   },
   {
     year: 1989,
@@ -279,7 +279,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 1,
     nationality: 'French',
-    wikipedia: 'https://en.wikipedia.org/wiki/Alain_Prost'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Alain_Prost'
   },
   {
     year: 1988,
@@ -287,7 +287,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 12,
     nationality: 'Brazilian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Ayrton_Senna'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Ayrton_Senna'
   },
   {
     year: 1987,
@@ -295,7 +295,7 @@ export const champions: DriverChampion[] = [
     team: 'Williams',
     carNumber: 6,
     nationality: 'Brazilian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Nelson_Piquet'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Nelson_Piquet'
   },
   {
     year: 1986,
@@ -303,7 +303,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 1,
     nationality: 'French',
-    wikipedia: 'https://en.wikipedia.org/wiki/Alain_Prost'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Alain_Prost'
   },
   {
     year: 1985,
@@ -311,7 +311,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 2,
     nationality: 'French',
-    wikipedia: 'https://en.wikipedia.org/wiki/Alain_Prost'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Alain_Prost'
   },
   {
     year: 1984,
@@ -319,7 +319,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 8,
     nationality: 'Austrian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Niki_Lauda'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Niki_Lauda'
   },
   {
     year: 1983,
@@ -327,7 +327,7 @@ export const champions: DriverChampion[] = [
     team: 'Brabham',
     carNumber: 5,
     nationality: 'Brazilian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Nelson_Piquet'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Nelson_Piquet'
   },
   {
     year: 1982,
@@ -335,7 +335,7 @@ export const champions: DriverChampion[] = [
     team: 'Williams',
     carNumber: 6,
     nationality: 'Finnish',
-    wikipedia: 'https://en.wikipedia.org/wiki/Keke_Rosberg'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Keke_Rosberg'
   },
   {
     year: 1981,
@@ -343,7 +343,7 @@ export const champions: DriverChampion[] = [
     team: 'Brabham',
     carNumber: 5,
     nationality: 'Brazilian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Nelson_Piquet'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Nelson_Piquet'
   },
   {
     year: 1980,
@@ -351,7 +351,7 @@ export const champions: DriverChampion[] = [
     team: 'Williams',
     carNumber: 27,
     nationality: 'Australian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Alan_Jones_(racing_driver)'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Alan_Jones_(racing_driver)'
   },
   {
     year: 1979,
@@ -359,7 +359,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 11,
     nationality: 'South African',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jody_Scheckter'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jody_Scheckter'
   },
   {
     year: 1978,
@@ -367,7 +367,7 @@ export const champions: DriverChampion[] = [
     team: 'Lotus',
     carNumber: 5,
     nationality: 'American',
-    wikipedia: 'https://en.wikipedia.org/wiki/Mario_Andretti'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Mario_Andretti'
   },
   {
     year: 1977,
@@ -375,7 +375,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 11,
     nationality: 'Austrian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Niki_Lauda'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Niki_Lauda'
   },
   {
     year: 1976,
@@ -383,7 +383,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 11,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/James_Hunt'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/James_Hunt'
   },
   {
     year: 1975,
@@ -391,7 +391,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 12,
     nationality: 'Austrian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Niki_Lauda'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Niki_Lauda'
   },
   {
     year: 1974,
@@ -399,7 +399,7 @@ export const champions: DriverChampion[] = [
     team: 'McLaren',
     carNumber: 5,
     nationality: 'Brazilian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Emerson_Fittipaldi'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Emerson_Fittipaldi'
   },
   {
     year: 1973,
@@ -407,7 +407,7 @@ export const champions: DriverChampion[] = [
     team: 'Tyrrell',
     carNumber: 5,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jackie_Stewart'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jackie_Stewart'
   },
   {
     year: 1972,
@@ -415,7 +415,7 @@ export const champions: DriverChampion[] = [
     team: 'Lotus',
     carNumber: 5,
     nationality: 'Brazilian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Emerson_Fittipaldi'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Emerson_Fittipaldi'
   },
   {
     year: 1971,
@@ -423,7 +423,7 @@ export const champions: DriverChampion[] = [
     team: 'Tyrrell',
     carNumber: 11,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jackie_Stewart'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jackie_Stewart'
   },
   {
     year: 1970,
@@ -431,7 +431,7 @@ export const champions: DriverChampion[] = [
     team: 'Lotus',
     carNumber: 2,
     nationality: 'Austrian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jochen_Rindt'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jochen_Rindt'
   },
   {
     year: 1969,
@@ -439,7 +439,7 @@ export const champions: DriverChampion[] = [
     team: 'Matra',
     carNumber: 10,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jackie_Stewart'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jackie_Stewart'
   },
   {
     year: 1968,
@@ -447,7 +447,7 @@ export const champions: DriverChampion[] = [
     team: 'Lotus',
     carNumber: 10,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Graham_Hill'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Graham_Hill'
   },
   {
     year: 1967,
@@ -455,7 +455,7 @@ export const champions: DriverChampion[] = [
     team: 'Brabham',
     carNumber: 2,
     nationality: 'New Zealander',
-    wikipedia: 'https://en.wikipedia.org/wiki/Denny_Hulme'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Denny_Hulme'
   },
   {
     year: 1966,
@@ -463,7 +463,7 @@ export const champions: DriverChampion[] = [
     team: 'Brabham',
     carNumber: 5,
     nationality: 'Australian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jack_Brabham'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jack_Brabham'
   },
   {
     year: 1965,
@@ -471,7 +471,7 @@ export const champions: DriverChampion[] = [
     team: 'Lotus',
     carNumber: 1,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jim_Clark'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jim_Clark'
   },
   {
     year: 1964,
@@ -479,7 +479,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 7,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/John_Surtees'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/John_Surtees'
   },
   {
     year: 1963,
@@ -487,7 +487,7 @@ export const champions: DriverChampion[] = [
     team: 'Lotus',
     carNumber: 8,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jim_Clark'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jim_Clark'
   },
   {
     year: 1962,
@@ -495,7 +495,7 @@ export const champions: DriverChampion[] = [
     team: 'BRM',
     carNumber: 7,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Graham_Hill'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Graham_Hill'
   },
   {
     year: 1961,
@@ -503,7 +503,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 4,
     nationality: 'American',
-    wikipedia: 'https://en.wikipedia.org/wiki/Phil_Hill'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Phil_Hill'
   },
   {
     year: 1960,
@@ -511,7 +511,7 @@ export const champions: DriverChampion[] = [
     team: 'Cooper',
     carNumber: 12,
     nationality: 'Australian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jack_Brabham'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jack_Brabham'
   },
   {
     year: 1959,
@@ -519,7 +519,7 @@ export const champions: DriverChampion[] = [
     team: 'Cooper',
     carNumber: 12,
     nationality: 'Australian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Jack_Brabham'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Jack_Brabham'
   },
   {
     year: 1958,
@@ -527,7 +527,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 2,
     nationality: 'British',
-    wikipedia: 'https://en.wikipedia.org/wiki/Mike_Hawthorn'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Mike_Hawthorn'
   },
   {
     year: 1957,
@@ -535,7 +535,7 @@ export const champions: DriverChampion[] = [
     team: 'Maserati',
     carNumber: 1,
     nationality: 'Argentine',
-    wikipedia: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
   },
   {
     year: 1956,
@@ -543,7 +543,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 34,
     nationality: 'Argentine',
-    wikipedia: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
   },
   {
     year: 1955,
@@ -551,7 +551,7 @@ export const champions: DriverChampion[] = [
     team: 'Mercedes',
     carNumber: 2,
     nationality: 'Argentine',
-    wikipedia: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
   },
   {
     year: 1954,
@@ -559,7 +559,7 @@ export const champions: DriverChampion[] = [
     team: 'Maserati/Mercedes',
     carNumber: 12,
     nationality: 'Argentine',
-    wikipedia: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
   },
   {
     year: 1953,
@@ -567,7 +567,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 101,
     nationality: 'Italian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Alberto_Ascari'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Alberto_Ascari'
   },
   {
     year: 1952,
@@ -575,7 +575,7 @@ export const champions: DriverChampion[] = [
     team: 'Ferrari',
     carNumber: 101,
     nationality: 'Italian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Alberto_Ascari'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Alberto_Ascari'
   },
   {
     year: 1951,
@@ -583,7 +583,7 @@ export const champions: DriverChampion[] = [
     team: 'Alfa Romeo',
     carNumber: 34,
     nationality: 'Argentine',
-    wikipedia: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Juan_Manuel_Fangio'
   },
   {
     year: 1950,
@@ -591,6 +591,6 @@ export const champions: DriverChampion[] = [
     team: 'Alfa Romeo',
     carNumber: 34,
     nationality: 'Italian',
-    wikipedia: 'https://en.wikipedia.org/wiki/Giuseppe_Farina'
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Giuseppe_Farina'
   },
 ];
