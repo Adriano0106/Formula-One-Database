@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   const newChampion: DriverChampion = req.body;
 
-  if (!newChampion.year || !newChampion.driver || !newChampion.team || !newChampion.carNumber || !newChampion.nationality || !newChampion.wikipedia) {
+  if (!newChampion.year || !newChampion.driver || !newChampion.team || !newChampion.carNumber || !newChampion.nationality || !newChampion.wikipediaPage) {
     return res.status(400).json({ error: 'Todos os campos são obrigatórios.' });
   }
 
