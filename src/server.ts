@@ -3,6 +3,7 @@ import cors from 'cors';
 import driverChampionsRoutes from './routes/driversChampions';
 import teamsChampionsRoutes from './routes/teamsChampions';
 import driversRoutes from './routes/drivers';
+import teamsRoutes from './routes/teams';
 
 const app = express();
 app.use(express.json());
@@ -27,6 +28,7 @@ app.use(cors({
 app.use('/api/champions/drivers', driverChampionsRoutes);
 app.use('/api/champions/teams', teamsChampionsRoutes);
 app.use('/api', driversRoutes);
+app.use('/api', teamsRoutes);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
