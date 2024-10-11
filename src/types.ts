@@ -21,3 +21,10 @@ export interface Driver {
   debutSeason: number;
   wikipediaPage: string;
 }
+
+export interface Team {
+  name: string;
+  nationality: string;
+  wikipediaPage: string;
+  debutYear: number;
+}
