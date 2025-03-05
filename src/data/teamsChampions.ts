@@ -1,6 +1,7 @@
 import { TeamChampion } from './../types';
 
 export const champions: TeamChampion[] = [
+  { year: 2024, team: 'McLaren', wikipediaPage: 'https://en.wikipedia.org/wiki/McLaren' },
   { year: 2023, team: 'Red Bull Racing', wikipediaPage: 'https://en.wikipedia.org/wiki/Red_Bull_Racing' },
   { year: 2022, team: 'Red Bull Racing', wikipediaPage: 'https://en.wikipedia.org/wiki/Red_Bull_Racing' },
   { year: 2021, team: 'Mercedes', wikipediaPage: 'https://en.wikipedia.org/wiki/Mercedes_AMG_Petronas_Formula_One_Team' },

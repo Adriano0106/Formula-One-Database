@@ -2,6 +2,14 @@ import { DriverChampion } from './../types';
 
 export const champions: DriverChampion[] = [
   {
+    year: 2024,
+    driver: 'Max Verstappen',
+    team: 'Red Bull Racing',
+    carNumber: 1,
+    nationality: 'Dutch',
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Max_Verstappen'
+  },
+  {
     year: 2023,
     driver: 'Max Verstappen',
     team: 'Red Bull Racing',
