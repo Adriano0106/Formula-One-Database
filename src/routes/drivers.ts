@@ -11,6 +11,8 @@ router.get('/drivers/:year', (req, res) => {
   const { year } = req.params;
 
   switch (year) {
+    case '2025':
+      return res.json(drivers2024);
     case '2024':
       return res.json(drivers2024);
     case '2023':
