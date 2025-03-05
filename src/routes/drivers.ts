@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { drivers2025 } from '../data/drivers-by-year/drivers2025';
 import { drivers2024 } from '../data/drivers-by-year/drivers2024';
 import { drivers2023 } from '../data/drivers-by-year/drivers2023';
 import { drivers2022 } from '../data/drivers-by-year/drivers2022';
@@ -12,7 +13,7 @@ router.get('/drivers/:year', (req, res) => {
 
   switch (year) {
     case '2025':
-      return res.json(drivers2024);
+      return res.json(drivers2025);
     case '2024':
       return res.json(drivers2024);
     case '2023':
