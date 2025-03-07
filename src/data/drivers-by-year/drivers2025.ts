@@ -1,5 +1,4 @@
 import { Driver } from '../../types';
-
 export const drivers2025: Driver[] = [
   {
     driver: 'Max Verstappen',
