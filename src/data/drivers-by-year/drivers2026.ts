@@ -1,0 +1,179 @@
+import { Driver } from '../../types';
+export const drivers2026: Driver[] = [
+  {
+    driver: 'Kimi Antonelli',
+    team: 'Mercedes',
+    country: 'Italy',
+    carNumber: 12,
+    debutSeason: 2025,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Kimi_Antonelli'
+  },
+  {
+    driver: 'George Russell',
+    team: 'Mercedes',
+    country: 'United Kingdom',
+    carNumber: 63,
+    debutSeason: 2019,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/George_Russell_(racing_driver)'
+  },
+  {
+    driver: 'Charles Leclerc',
+    team: 'Ferrari',
+    country: 'Monaco',
+    carNumber: 16,
+    debutSeason: 2018,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Charles_Leclerc'
+  },
+  {
+    driver: 'Lewis Hamilton',
+    team: 'Ferrari',
+    country: 'United Kingdom',
+    carNumber: 44,
+    debutSeason: 2007,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lewis_Hamilton'
+  },
+  {
+    driver: 'Lando Norris',
+    team: 'McLaren',
+    country: 'United Kingdom',
+    carNumber: 1,
+    debutSeason: 2019,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lando_Norris'
+  },
+  {
+    driver: 'Oscar Piastri',
+    team: 'McLaren',
+    country: 'Australia',
+    carNumber: 81,
+    debutSeason: 2023,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Oscar_Piastri'
+  },
+  {
+    driver: 'Max Verstappen',
+    team: 'Red Bull Racing',
+    country: 'Netherlands',
+    carNumber: 3,
+    debutSeason: 2015,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Max_Verstappen'
+  },
+  {
+    driver: 'Isack Hadjar',
+    team: 'Red Bull Racing',
+    country: 'France',
+    carNumber: 6,
+    debutSeason: 2025,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Isack_Hadjar'
+  },
+  {
+    driver: 'Pierre Gasly',
+    team: 'Alpine',
+    country: 'France',
+    carNumber: 10,
+    debutSeason: 2017,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Pierre_Gasly'
+  },
+  {
+    driver: 'Franco Colapinto',
+    team: 'Alpine',
+    country: 'Argentina',
+    carNumber: 43,
+    debutSeason: 2024,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Franco_Colapinto'
+  },
+  {
+    driver: 'Fernando Alonso',
+    team: 'Aston Martin',
+    country: 'Spain',
+    carNumber: 14,
+    debutSeason: 2001,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Fernando_Alonso'
+  },
+  {
+    driver: 'Lance Stroll',
+    team: 'Aston Martin',
+    country: 'Canada',
+    carNumber: 18,
+    debutSeason: 2017,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Lance_Stroll'
+  },
+  {
+    driver: 'Alexander Albon',
+    team: 'Williams',
+    country: 'Thailand',
+    carNumber: 23,
+    debutSeason: 2019,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Alexander_Albon'
+  },
+  {
+    driver: 'Carlos Sainz Jr.',
+    team: 'Williams',
+    country: 'Spain',
+    carNumber: 55,
+    debutSeason: 2015,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Carlos_Sainz_Jr.'
+  },
+  {
+    driver: 'Gabriel Bortoleto',
+    team: 'Audi',
+    country: 'Brazil',
+    carNumber: 5,
+    debutSeason: 2025,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Gabriel_Bortoleto'
+  },
+  {
+    driver: 'Nico Hülkenberg',
+    team: 'Audi',
+    country: 'Germany',
+    carNumber: 27,
+    debutSeason: 2010,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Nico_H%C3%BClkenberg'
+  },
+  {
+    driver: 'Sergio Pérez',
+    team: 'Cadillac',
+    country: 'Mexico',
+    carNumber: 11,
+    debutSeason: 2011,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Sergio_P%C3%A9rez'
+  },
+  {
+    driver: 'Valtteri Bottas',
+    team: 'Cadillac',
+    country: 'Finland',
+    carNumber: 77,
+    debutSeason: 2013,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Valtteri_Bottas'
+  },
+  {
+    driver: 'Esteban Ocon',
+    team: 'Haas',
+    country: 'France',
+    carNumber: 31,
+    debutSeason: 2016,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Esteban_Ocon'
+  },
+  {
+    driver: 'Oliver Bearman',
+    team: 'Haas',
+    country: 'United Kingdom',
+    carNumber: 87,
+    debutSeason: 2024,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Oliver_Bearman'
+  },
+  {
+    driver: 'Liam Lawson',
+    team: 'Racing Bulls',
+    country: 'New Zealand',
+    carNumber: 30,
+    debutSeason: 2023,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Liam_Lawson_(racing_driver)'
+  },
+  {
+    driver: 'Arvid Lindblad',
+    team: 'Racing Bulls',
+    country: 'United Kingdom',
+    carNumber: 41,
+    debutSeason: 2026,
+    wikipediaPage: 'https://en.wikipedia.org/wiki/Arvid_Lindblad'
+  }
+];
