@@ -32,7 +32,4 @@ app.use('/api/champions/teams', teamsChampionsRoutes);
 app.use('/api', driversRoutes);
 app.use('/api', teamsRoutes);
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`😎 Servidor rodando na porta ${PORT}`);
-});
+export default app;
