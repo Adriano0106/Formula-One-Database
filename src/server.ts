@@ -13,6 +13,7 @@ app.use(express.json());
 const defaultOrigins = [
   'http://localhost:3000',
   'http://localhost:3001',
+  'https://adriano-formulaonenext.netlify.app',
 ];
 const allowedOrigins = (process.env.CORS_ALLOWED_ORIGINS ?? defaultOrigins.join(','))
   .split(',')

@@ -9,6 +9,13 @@ describe("API", () => {
     expect(response.body).toEqual({ status: "ok" })
   })
 
+  it("allows the Netlify origin during the Vercel migration", async () => {
+    const origin = "https://adriano-formulaonenext.netlify.app"
+    const response = await request(app).get("/api/seasons").set("Origin", origin)
+    expect(response.status).toBe(200)
+    expect(response.headers["access-control-allow-origin"]).toBe(origin)
+  })
+
   it("lists available seasons in descending order", async () => {
     const response = await request(app).get("/api/seasons")
     expect(response.status).toBe(200)
