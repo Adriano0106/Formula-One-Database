@@ -1,37 +1,19 @@
 import { Router } from "express"
-import { drivers2020 } from "../data/drivers-by-year/drivers2020"
-import { drivers2021 } from "../data/drivers-by-year/drivers2021"
-import { drivers2022 } from "../data/drivers-by-year/drivers2022"
-import { drivers2023 } from "../data/drivers-by-year/drivers2023"
-import { drivers2024 } from "../data/drivers-by-year/drivers2024"
-import { drivers2025 } from "../data/drivers-by-year/drivers2025"
-import { drivers2026 } from "../data/drivers-by-year/drivers2026"
+import { driversBySeason } from "../data/seasons"
 
 const router = Router()
 
 router.get("/drivers/:year", (req, res) => {
-  const { year } = req.params
-
-  switch (year) {
-    case "2020":
-      return res.json(drivers2020)
-    case "2021":
-      return res.json(drivers2021)
-    case "2022":
-      return res.json(drivers2022)
-    case "2023":
-      return res.json(drivers2023)
-    case "2024":
-      return res.json(drivers2024)
-    case "2025":
-      return res.json(drivers2025)
-    case "2026":
-      return res.json(drivers2026)
-    default:
-      return res
-        .status(404)
-        .json({ message: "Dados não encontrados para o ano desejado" })
+  if (!/^\d{4}$/.test(req.params.year)) {
+    return res.status(400).json({ code: "INVALID_YEAR", message: "O ano deve conter quatro dígitos." })
   }
+
+  const drivers = driversBySeason[Number(req.params.year)]
+  if (!drivers) {
+    return res.status(404).json({ code: "SEASON_NOT_FOUND", message: "Não há dados de pilotos para o ano informado." })
+  }
+
+  return res.json(drivers)
 })
 
 export default router

@@ -1,25 +1,19 @@
 import { Router } from "express"
-import { teams2024 } from "../data/teams-by-year/teams2024"
-import { teams2025 } from "../data/teams-by-year/teams2025"
-import { teams2026 } from "../data/teams-by-year/teams2026"
+import { teamsBySeason } from "../data/seasons"
 
 const router = Router()
 
 router.get("/teams/:year", (req, res) => {
-  const { year } = req.params
-
-  switch (year) {
-    case "2024":
-      return res.json(teams2024)
-    case "2025":
-      return res.json(teams2025)
-    case "2026":
-      return res.json(teams2026)
-    default:
-      return res
-        .status(404)
-        .json({ message: "Dados não encontrados para o ano desejado" })
+  if (!/^\d{4}$/.test(req.params.year)) {
+    return res.status(400).json({ code: "INVALID_YEAR", message: "O ano deve conter quatro dígitos." })
   }
+
+  const teams = teamsBySeason[Number(req.params.year)]
+  if (!teams) {
+    return res.status(404).json({ code: "SEASON_NOT_FOUND", message: "Não há dados de equipes para o ano informado." })
+  }
+
+  return res.json(teams)
 })
 
 export default router
