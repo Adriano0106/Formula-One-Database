@@ -1,0 +1,58 @@
+openapi: 3.0.3
+info:
+  title: Formula One Database API
+  version: 1.1.0
+  description: API pública e somente leitura com pilotos, equipes e campeões da Fórmula 1.
+servers:
+  - url: http://localhost:3000
+paths:
+  /health:
+    get:
+      summary: Verifica a disponibilidade da API
+      responses:
+        "200": { description: API disponível }
+  /api/seasons:
+    get:
+      summary: Lista temporadas disponíveis por recurso
+      responses:
+        "200": { description: Temporadas em ordem decrescente }
+  /api/drivers/{year}:
+    get:
+      summary: Lista pilotos de uma temporada
+      parameters:
+        - $ref: "#/components/parameters/Year"
+      responses:
+        "200": { description: Lista de pilotos }
+        "400": { $ref: "#/components/responses/InvalidYear" }
+        "404": { $ref: "#/components/responses/SeasonNotFound" }
+  /api/teams/{year}:
+    get:
+      summary: Lista equipes de uma temporada
+      parameters:
+        - $ref: "#/components/parameters/Year"
+      responses:
+        "200": { description: Lista de equipes }
+        "400": { $ref: "#/components/responses/InvalidYear" }
+        "404": { $ref: "#/components/responses/SeasonNotFound" }
+  /api/champions/drivers:
+    get:
+      summary: Lista campeões de pilotos
+      responses:
+        "200": { description: Lista de campeões }
+  /api/champions/teams:
+    get:
+      summary: Lista campeões de construtores
+      responses:
+        "200": { description: Lista de campeões }
+components:
+  parameters:
+    Year:
+      name: year
+      in: path
+      required: true
+      schema: { type: integer, minimum: 1950, maximum: 9999 }
+  responses:
+    InvalidYear:
+      description: Ano malformado
+    SeasonNotFound:
+      description: Temporada indisponível para o recurso
